@@ -14,6 +14,8 @@ _SEM_JANELA = 0x08000000  # CREATE_NO_WINDOW
 
 def alvo_do_app() -> tuple[Path, str]:
     """(executável, argumentos) para abrir o app sem console."""
+    if getattr(sys, "frozen", False):  # app instalado (empacotado com PyInstaller)
+        return Path(sys.executable), ""
     exe = Path(sys.prefix) / "Scripts" / "dedo-duro.exe"  # criado pelo `pip install` (gui-scripts)
     if exe.exists():
         return exe, ""
