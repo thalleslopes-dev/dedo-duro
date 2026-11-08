@@ -3,7 +3,7 @@
 <h1 align="center">Dedo-Duro</h1>
 
 <p align="center">
-  <a href="https://github.com/SEU-USUARIO/dedo-duro/actions/workflows/ci.yml"><img src="https://github.com/SEU-USUARIO/dedo-duro/actions/workflows/ci.yml/badge.svg" alt="Testes"></a>
+  <a href="https://github.com/thalleslopes-dev/dedo-duro/actions/workflows/ci.yml"><img src="https://github.com/thalleslopes-dev/dedo-duro/actions/workflows/ci.yml/badge.svg" alt="Testes"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/licen%C3%A7a-MIT-green" alt="Licença MIT"></a>
   <img src="https://img.shields.io/badge/python-3.10%2B-blue?logo=python&amp;logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/plataforma-Windows-0078D6?logo=windows&amp;logoColor=white" alt="Windows">
@@ -85,7 +85,7 @@ python --version
 Com git:
 
 ```powershell
-git clone https://github.com/SEU-USUARIO/dedo-duro.git
+git clone https://github.com/thalleslopes-dev/dedo-duro.git
 cd dedo-duro
 ```
 
