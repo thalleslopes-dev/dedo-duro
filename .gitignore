@@ -1,0 +1,13 @@
+# ambiente e build
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# atalho local (tem caminhos da sua máquina)
+Dedo-Duro.lnk
+
+# Seus dados (histórico, treino, logs) ficam em %LOCALAPPDATA%\DedoDuro, fora do repositório.
